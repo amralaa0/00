@@ -1,0 +1,394 @@
+.navbar-brand img {
+  height: 70px;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,173,230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.navbar-toggler {
+  border: none;
+  outline: none !important;
+}
+.h5,
+h5 {
+  font-size: 1.2rem;
+}
+#a {
+  height: 580px;
+  padding-top: 50px;
+  display: flex;
+}
+.card1 {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 3rem;
+  padding: 1rem;
+  margin: 7rem 3rem 1rem 5rem;
+  height: 27rem;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 200px;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.owl-carousel .owl-item p {
+  padding-top: 2rem;
+}
+.text {
+  padding-top: 150px;
+  font-size: 50px;
+  line-height: 1.7;
+}
+.back {
+  background-image: url('../imgs/header-side.jpg');
+  background-repeat: no-repeat;
+  background-size: 65%;
+  display: grid;
+}
+
+#font {
+  font-family: 'Cairo', sans-serif;
+}
+#person {
+  height: 500px;
+  display: flex;
+}
+.word {
+  font-size: 27px;
+  color: #344350;
+  display: flex;
+}
+.gab {
+  background: rgb(255, 255, 255);
+  position: relative;
+  padding: 50px;
+}
+
+.gab::after {
+  content: '';
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 3px;
+  width: 6rem;
+  background: #3aade6;
+}
+button {
+  border-radius: 0;
+  outline: none !important;
+}
+.work {
+  background-image: url('../imgs/bg30-Ar1web.gif');
+  width: 100%;
+  text-align: center;
+}
+.work-item {
+  max-width: 100%;
+  border-radius: 1rem;
+  background: #fff;
+  margin: 2rem 3rem 2rem 3rem;
+  box-shadow: 0.5rem 0.5rem 0.7rem 0.3rem rgba(94, 101, 110, 0.639);
+}
+.work-img img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.work-text {
+  line-height: 1.5;
+  font-weight: 450;
+  padding: 1rem;
+}
+.btn-control {
+  color: white;
+  display: inline-flex;
+  background-color: #233142;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 1.5rem;
+  padding: 0.4rem 3.5rem;
+  margin: 2rem auto;
+  box-shadow: 0 0 0.5rem 0.1rem rgba(35, 49, 66, 0.3);
+}
+.section6 {
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.sec {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.mar {
+  padding: 4rem 5rem 5rem 5rem;
+}
+.btn-small {
+  color: white;
+  background-color: #233142;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 1.5rem;
+  padding: 0.4rem 1rem;
+  margin: 2rem auto;
+  box-shadow: 0 0 0.5rem 0.1rem rgba(35, 49, 66, 0.3);
+}
+.section7 {
+  background-image: url('../imgs/our-client-bg.jpg');
+  padding-top: 5rem;
+  background-size: cover;
+  background-position: bottom;
+}
+.carousel-image {
+  width: 8rem;
+}
+.owl-nav {
+  margin: 50px;
+}
+.services1-carousel {
+  background-image: url('../imgs/we-offer.png');
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 16px !important;
+  font: inherit;
+  outline: none;
+  font-size: xx-large;
+}
+.footer-boy {
+  height: 250px;
+  margin-top: 45px;
+}
+.footer-bg-st {
+  background-image: url('../imgs/footer.jpg');
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  height: 100%;
+}
+.footer-right {
+  text-align: center;
+}
+.footer-left {
+  text-align: center;
+  margin-top: 90px;
+}
+.footer-left span {
+  padding-right: 50px;
+  font-size: 12;
+  font-family: 'Cairo', sans-serif;
+  color: white;
+  line-height: 60px;
+}
+
+footer a {
+  color: white;
+  font-size: 20px;
+  margin-left: 0px;
+  line-height: 40px;
+}
+.footer-boy {
+  height: 350px;
+  margin-top: 70px;
+}
+.footer-left img {
+  width: 16rem;
+  margin-bottom: 1.2rem;
+}
+.fa {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: xx-large;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 1rem;
+  display: initial;
+}
+.footer-size {
+  height: 30rem !important;
+}
+
+
+
+
+
+
+
+
+
+.h3-2 {
+  text-align: right;
+  padding-right: 1rem;
+  padding-bottom: 0.8rem;
+  border-right: solid 3.5px #3aade6;
+  font-size: 2rem;
+}
+.pagination {
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  border-radius: 0.25rem;
+  padding-top: 3rem;
+  height: 3rem;
+}
+.paggin {
+  margin: auto;
+}
+.back-img {
+  background-image: url('../imgs/articles.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img-bk-4 {
+  background-image: url('../imgs/details-bg.png');
+  font-size: 1.5rem;
+  color: white;
+}
+
+/****************************** carousel start *******************************/
+
+.card-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .card-carousel .my-card {
+    width:12rem;
+    position: relative;
+    z-index: 1;
+    -webkit-transform: scale(0.6) translateY(-2rem);
+    transform: scale(0.6) translateY(-2rem);
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+    transition: 1s;
+  }
+  
+  .card-carousel .my-card:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,0.3);
+    bottom: -5rem;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+  
+  .card-carousel .my-card.active {
+    z-index: 3;
+    -webkit-transform: scale(1) translateY(0) translateX(0);
+    transform: scale(1) translateY(0) translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+  }
+  
+  .card-carousel .my-card.prev, .card-carousel .my-card.next {
+    z-index: 2;
+    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+    transform: scale(0.8) translateY(-1rem) translateX(0);
+    opacity: 0.6;
+    pointer-events: auto;
+    transition: 1s;
+  }
+  .card-carousel .my-card:nth-child(0):before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(1):before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(2):before {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(3):before {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(4):before {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  /************************** carousel end ************************/ 
+  /************************ last page start ***********************/
+  .work-last img{
+      width: 60%;
+      border-radius: 50px;
+      box-shadow: 0.4rem 0.3rem 0.7rem 0rem rgba(94, 101, 110, 0.639);
+      margin: 5rem 5rem 0rem 5rem !important;
+  }
+  .work-last-text {
+    size: 20% auto;
+    line-height: 2;
+    font-weight: 450;
+    padding: 2rem 4rem 4rem 4rem;
+    margin: 1rem;
+    font-size: x-large;
+}
+  /*************************last page end *************************/
