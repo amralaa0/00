@@ -37,7 +37,6 @@ h5 {
 }
 .owl-carousel .owl-item img {
   display: block;
-  width: 200px;
   margin: auto;
   padding-bottom: 3rem;
 }
@@ -49,7 +48,7 @@ h5 {
   margin-left: 2rem;
 }
 .owl-carousel .owl-item p {
-  padding-top: 2rem;
+  padding-top: inherit;
 }
 .text {
   padding-top: 150px;
@@ -59,7 +58,7 @@ h5 {
 .back {
   background-image: url('../imgs/header-side.jpg');
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: contain;
   display: grid;
 }
 
@@ -130,8 +129,6 @@ button {
 }
 .section6 {
   text-align: center;
-  margin-left: 3rem;
-  margin-right: 3rem;
 }
 .sec {
   margin-right: 60px;
