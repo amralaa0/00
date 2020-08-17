@@ -94,6 +94,10 @@ button {
   border-radius: 0;
   outline: none !important;
 }
+.btn:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
 .work {
   background-image: url('../imgs/bg30-Ar1web.gif');
   width: 100%;
@@ -206,6 +210,10 @@ footer a {
   margin-left: 0px;
   line-height: 40px;
 }
+footer a:hover {
+  text-decoration: none;
+  color:white;
+}
 .footer-boy {
   height: 350px;
   margin-top: 70px;
@@ -226,14 +234,6 @@ footer a {
 .footer-size {
   height: 30rem !important;
 }
-
-
-
-
-
-
-
-
 
 .h3-2 {
   text-align: right;
@@ -268,124 +268,122 @@ footer a {
 /****************************** carousel start *******************************/
 
 .card-carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  
-  .card-carousel .my-card {
-    width:12rem;
-    position: relative;
-    z-index: 1;
-    -webkit-transform: scale(0.6) translateY(-2rem);
-    transform: scale(0.6) translateY(-2rem);
-    opacity: 0;
-    cursor: pointer;
-    pointer-events: none;
-    transition: 1s;
-  }
-  
-  .card-carousel .my-card:after {
-    content: '';
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    border-radius: 100%;
-    background-color: rgba(0,0,0,0.3);
-    bottom: -5rem;
-    -webkit-filter: blur(4px);
-    filter: blur(4px);
-  }
-  
-  .card-carousel .my-card.active {
-    z-index: 3;
-    -webkit-transform: scale(1) translateY(0) translateX(0);
-    transform: scale(1) translateY(0) translateX(0);
-    opacity: 1;
-    pointer-events: auto;
-    transition: 1s;
-  }
-  
-  .card-carousel .my-card.prev, .card-carousel .my-card.next {
-    z-index: 2;
-    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
-    transform: scale(0.8) translateY(-1rem) translateX(0);
-    opacity: 0.6;
-    pointer-events: auto;
-    transition: 1s;
-  }
-  .card-carousel .my-card:nth-child(0):before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 3rem;
-    font-weight: 300;
-    color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(1):before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 3rem;
-    font-weight: 300;
-    color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(2):before {
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 3rem;
-    font-weight: 300;
-    color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(3):before {
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 3rem;
-    font-weight: 300;
-    color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(4):before {
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 3rem;
-    font-weight: 300;
-    color: #fff;
-  }
-  /************************** carousel end ************************/ 
-  /************************ last page start ***********************/
-  .work-last img{
-      width: 60%;
-      border-radius: 50px;
-      box-shadow: 0.4rem 0.3rem 0.7rem 0rem rgba(94, 101, 110, 0.639);
-      margin: 5rem 5rem 0rem 5rem !important;
-  }
-  .work-last-text {
-    size: 20% auto;
-    line-height: 2;
-    font-weight: 450;
-    padding: 2rem 4rem 4rem 4rem;
-    margin: 1rem;
-    font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-  /*************************last page end *************************/
+
+.card-carousel .my-card {
+  width: 12rem;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(0.6) translateY(-2rem);
+  transform: scale(0.6) translateY(-2rem);
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 1s;
+}
+
+.card-carousel .my-card:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: -5rem;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.card-carousel .my-card.active {
+  z-index: 3;
+  -webkit-transform: scale(1) translateY(0) translateX(0);
+  transform: scale(1) translateY(0) translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+  transition: 1s;
+}
+
+.card-carousel .my-card.prev,
+.card-carousel .my-card.next {
+  z-index: 2;
+  -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+  transform: scale(0.8) translateY(-1rem) translateX(0);
+  opacity: 0.6;
+  pointer-events: auto;
+  transition: 1s;
+}
+.card-carousel .my-card:nth-child(0):before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(1):before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(2):before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(3):before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(4):before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+/************************** carousel end ************************/
+/************************ last page start ***********************/
+.work-last img {
+  width: 60%;
+  border-radius: 50px;
+  box-shadow: 0.4rem 0.3rem 0.7rem 0rem rgba(94, 101, 110, 0.639);
+  margin: 5rem 5rem 0rem 5rem !important;
+}
+.work-last-text {
+  size: 20% auto;
+  line-height: 2;
+  font-weight: 450;
+  padding: 2rem 4rem 4rem 4rem;
+  margin: 1rem;
+  font-size: x-large;
+}
+/*************************last page end *************************/
